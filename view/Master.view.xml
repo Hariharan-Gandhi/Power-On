@@ -1,0 +1,24 @@
+<core:View controllerName="teched.poweron.view.Master" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:table="sap.ui.table"
+	xmlns="sap.m">
+	<Page id="MainPage_PowerOn" class="bg" navButtonPress="onNavBack" showNavButton="true" title="Power On">
+		<content>
+			<Image class="logo" densityAware="false" src="./img/logo.png">
+				<layoutData>
+					<FlexItemData growFactor="1"/>
+				</layoutData>
+			</Image>
+			
+			<TileContainer height="50%" id="container" tileDelete="handleTileDelete">
+				<StandardTile class="tile-css circle" icon="sap-icon://survey" id="monitor" info="Monitor Current power Zones" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+					press="main_page_nav" title="Monitor-Map" type="{type}" />
+				<StandardTile class="tile-css circle" icon="sap-icon://survey" id="list" info="Monitor List of Zones" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+					press="main_page_nav" title="Monitor-List" type="{type}" />
+				<StandardTile class="tile-css circle" icon="sap-icon://cancel-maintenance" id="repair" info="Alert Repair Crew" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+					press="main_page_nav" title="Repair" type="{type}"/>
+				<StandardTile class="tile-css circle" icon="sap-icon://customer-financial-fact-sheet" id="feedback" info="Feedback from customer" infoState="{infoState}" number="{number}" numberUnit="{numberUnit}"
+					press="main_page_nav" title="Maintenance" type="{type}"/>
+			</TileContainer>
+		</content>
+		<footer></footer>
+	</Page>
+</core:View>

@@ -1,0 +1,28 @@
+<core:View controllerName="teched.poweron.view.Monitor" xmlns:com="sap.suite.ui.commons" xmlns:core="sap.ui.core"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns:vbm="sap.ui.vbm" xmlns="sap.m">
+	<Page navButtonPress="onNavBack" showNavButton="true" title="Monitor">
+		<content>
+			<core:HTML
+				content='&lt;iframe height="auto" style="margin-top:0px" src="http://api.openweathermap.org/data/2.5/weather?q=Barcelona&amp;mode=html&amp;appid=2de143494c0b295cca9337e1e96b00e0"&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;&lt;/iframe&gt;'></core:HTML>
+			<core:HTML
+				content='&lt;iframe height="auto" style="margin-top:0px" src="http://api.openweathermap.org/data/2.5/weather?q=Madrid&amp;mode=html&amp;appid=2de143494c0b295cca9337e1e96b00e0"&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;&lt;/iframe&gt;'></core:HTML>
+			<core:HTML
+				content='&lt;iframe height="auto" style="margin-top:0px" src="http://api.openweathermap.org/data/2.5/weather?q=Gibraltor&amp;mode=html&amp;appid=2de143494c0b295cca9337e1e96b00e0"&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;&lt;/iframe&gt;'></core:HTML>
+			<core:HTML
+				content='&lt;iframe height="auto" style="margin-top:0px" src="http://api.openweathermap.org/data/2.5/weather?q=Girona&amp;mode=html&amp;appid=2de143494c0b295cca9337e1e96b00e0"&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;&lt;/iframe&gt;'></core:HTML>
+			<vbm:GeoMap height="100%" id="vbi" openWindow="onOpenDetail" width="100%">
+				<vbm:Containers items="{/Pies}">
+					<vbm:Container position="{posi}">
+						<vbm:item>
+							<com:HarveyBallMicroChart press="onChartpress" showFractions="true" showTotal="true" size="XS" total="100" totalLabel="{name}">
+								<com:items>
+									<com:HarveyBallMicroChartItem color="{color}" fraction="{fracs}"/>
+								</com:items>
+							</com:HarveyBallMicroChart>
+						</vbm:item>
+					</vbm:Container>
+				</vbm:Containers>
+			</vbm:GeoMap>
+		</content>
+	</Page>
+</core:View>

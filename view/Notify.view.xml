@@ -1,0 +1,16 @@
+<core:View controllerName="teched.poweron.view.Notify" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page title="Notify Repair Crew" navButtonPress="onNavBack" showNavButton="true" >
+		<content>
+			<Image class="logo" densityAware="false" src="./img/logo.png">
+				<layoutData>
+					<FlexItemData growFactor="1"/>
+				</layoutData>
+			</Image>
+			
+			<core:HTML content='&lt;iframe width="100%" height="400px" style="margin-top:50px" src="https://mailp1941578957trial.hanatrial.ondemand.com/mail/composeMail"&gt;&lt;p&gt;Your browser does not support iframes.&lt;/p&gt;&lt;/iframe&gt;'>
+			</core:HTML>
+		
+		</content>
+	</Page>
+</core:View>

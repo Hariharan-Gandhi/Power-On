@@ -1,0 +1,49 @@
+{
+	"Pies": [{
+			"posi": "-3.703748;40.416283;0",
+			"fracs": 73.5,
+			"color": "Critical",
+			"name": "Madrid"
+		},{
+			"posi": "-0.376180;39.464662;0",
+			"fracs": 35,
+			"color": "Neutral",
+			"name": "Valencia"
+		},{
+			"posi": "-0.234308;39.655519;0",
+			"fracs": 10,
+			"color": "Good",
+			"name": "Port de Sagunt"
+		},{
+			"posi": "2.158198;41.367489;0",
+			"fracs": 90,
+			"color": "Critical",
+			"name": "Barcelona"
+		},{
+			"posi": "-5.394946;36.233669;0",
+			"fracs": 45,
+			"color": "Neutral",
+			"name": "Gibraltor"
+		},{
+			"posi": "-0.891376;41.646812;0",
+			"fracs": 10,
+			"color": "Good",
+			"name": "Zaragoza"
+		},{
+			"posi": "2.516177;42.054977;0",
+			"fracs": 79,
+			"color": "Error",
+			"name": "Girona"
+		},{
+			"posi": "-1.061764;37.943131;0",
+			"fracs": 10,
+			"color": "Good",
+			"name": "Murcia"
+		},{
+			"posi": "-3.870226;38.934457;0",
+			"fracs": 63,
+			"color": "Error",
+			"name": "Ciudad Real"
+		}
+	]
+}

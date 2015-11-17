@@ -1,0 +1,34 @@
+<core:View controllerName="teched.poweron.view.Master_list" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:table="sap.ui.table" xmlns="sap.m">
+	
+
+	
+	<Page id="productListPage" navButtonPress="onNavBack" showNavButton="true" title="{i18n>masterTitle}">
+	
+		<content>
+			<core:HTML content='&lt;div class=&quot;content&quot;&gt;&lt;h4&gt;PowerOn Monitor&lt;/h4&gt;&lt;/div&gt;'></core:HTML>
+			<ScrollContainer focusable="true" height="900px" horizontal="true" vertical="true" >
+				<Table id="idProductsTable" items="{/products}">
+					<columns>
+						<Column width="12em"><Text text="Location"/></Column>
+						<Column demandPopin="true" minScreenWidth="Tablet"><Text text="Power line"/></Column>
+						<Column demandPopin="true" hAlign="right" minScreenWidth="Tablet"><Text text="Status"/></Column>
+						<Column hAlign="Right"><Text text="Risk %"/></Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells id="cellz">
+								<ObjectIdentifier text="{City}" title="{Quarter}, {Area}"/>
+								<Text id="bar" text="{powerzone}"/>
+								<Text text="{status}" />
+								<ObjectNumber number="{risk}"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</ScrollContainer>
+		</content>
+		
+	
+		<footer></footer>
+	</Page>
+</core:View>
