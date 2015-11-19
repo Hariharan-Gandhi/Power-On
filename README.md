@@ -16,12 +16,12 @@ Description:
 * No Automatic Notification on assement
 * No efficient utilization of Weather Predication data
 
-**Classic Solution - failure:**
+**Power-On Solution - running on HANA Cloud Platform:**
 * Provides overview of Power-zones on Maps and also current status
 * Ranks each power nodes based on threat level(5 parameters - weather, age, previous damages, #affected people)
 * Profiles of various Skill Set maps to threat severity
 * Automatic Notification for critical areas using Nofitication service running on Cloud Platform
-* Efficiently utilizes Weather Predication data to increase proactiveness 
+* Efficiently utilizes free Weather Predication data to increase proactiveness 
 
 Screenshots:
 --------
