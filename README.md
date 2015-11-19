@@ -7,15 +7,21 @@ Power-On
 
 Description:
 -----------
-**One-Liner:** 
+**Challenge:** An innovative solution to how can energy company repair crews be proactive or alerted to outages or problems, which will affect customers, consumers and service level agreements.
 
-Code Modules:
---------
-* **Module:** `MAIN`  
-* **Module:** `alert`
+**Classic Solution - failure:**
+* No overview of Power-zones
+* Reacting after Outages occur
+* No matching of Skill Set to threat severity 
+* No Automatic Notification on assement
+* No efficient utilization of Weather Predication data
 
-#### Members:
-+ Hariharan Gandhi (hariharangandhi17@gmail.com)
+**Classic Solution - failure:**
+* Provides overview of Power-zones on Maps and also current status
+* Ranks each power nodes based on threat level(5 parameters - weather, age, previous damages, #affected people)
+* Profiles of various Skill Set maps to threat severity
+* Automatic Notification for critical areas using Nofitication service running on Cloud Platform
+* Efficiently utilizes Weather Predication data to increase proactiveness 
 
 Screenshots:
 --------
