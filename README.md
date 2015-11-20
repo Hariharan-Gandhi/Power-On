@@ -29,7 +29,7 @@ Screenshots:
 **Power-On Admin Homepage**
 ![PowerOn_Homepage](https://raw.githubusercontent.com/Hariharan-Gandhi/Power-On/master/img/Screenshots/PowerOn_Home.png "https://raw.githubusercontent.com/Hariharan-Gandhi/Power-On/master/img/Screenshots/PowerOn_AnalysisReport.png")
 
-**Power-On Mapview of powerzones **
+**Power-On Mapview of powerzones**
 ![PowerOn_AnalysisReport](https://raw.githubusercontent.com/Hariharan-Gandhi/Power-On/master/img/Screenshots/PowerOn_AnalysisReport.png "MapView")
 
 **Power-On Identify Danger Site**
